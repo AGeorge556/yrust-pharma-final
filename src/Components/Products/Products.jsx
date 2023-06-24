@@ -3,11 +3,13 @@ import "./Products.css";
 import StartImage from "../../assets/Start.jpg";
 // import VisionImage from "../../assets/Vision.jpg";
 // import MissionImage from "../../assets/Mission.jpg";
+
 const Card = ({ data }) => {
   const { imgSrc, title, subtitle, description, color } = data;
-
+  
   return (
-    <div className={`projcard projcard-${color}`}>
+    
+    <div className={`projcard projcard-${color}` }>
       <div className="projcard-innerbox">
         <img className="projcard-img" src={imgSrc} alt={title} />
         <div className="projcard-textbox">
@@ -49,11 +51,17 @@ const CardContainer = () => {
   ];
 
   return (
-    <div className="section projcard-container" id="about-us">
+   <div>
+   <div className="p-title" id="products">
+    <h1>Products</h1>
+    </div> 
+    <div className="section1 projcard-container" id="about-us">
       {cardData.map((card, index) => (
         <Card key={index} data={card} />
       ))}
     </div>
+    </div>
+    
   );
 };
 

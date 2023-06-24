@@ -4,6 +4,15 @@ body {
 	color: #333;
 	font-size: 14px;
 }
+.section1{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 10vh;
+    background: #ffffff;
+    font-family: 'Open Sans', arial, sans-serif;  }
 .projcard-container {
 	margin: 50px 0;
 }
@@ -207,4 +216,17 @@ body {
 	border-top: 13px solid transparent;
 	right: -10px;
 	top: 0;
+}
+.p-title {
+    padding: 20px;
+    width: 100%;
+	height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F99B1C;
+    color: white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+	/* border-radius: 50px; */
 }
