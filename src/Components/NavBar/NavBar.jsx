@@ -57,7 +57,7 @@ function NavBar() {
               </a>
             </li>
             <li>
-              <a href="#" onClick={closeNav}>
+              <a href="#Team" onClick={closeNav}>
                 Team
               </a>
             </li>
